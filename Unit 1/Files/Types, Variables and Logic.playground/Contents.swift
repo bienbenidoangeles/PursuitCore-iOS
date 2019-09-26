@@ -73,3 +73,36 @@ if(a<b || a<b || a<c){
 
 //Constants
 let pi = 3.14
+
+//One line comment
+/*Multi-line comment
+ Swift is type-safe language, meant you can't mix declared datatypes. Ex if varName= "Alex", you can't update varName = 1
+ modern language that provides optionals
+ */
+
+//String interpolation
+var fullName = "Benny" + " Doval"
+print("Persons full name is \(fullName)")
+
+//Integer Division
+let iNum = 16/5
+//Type-annotation
+let iNumType:Double = 16/5
+print("Integer point division is while type-annotation is \(iNumType)")
+
+//Floating Point Division
+let fNum = 16.0/5.0
+print("Floating point division is \(fNum)")
+
+//Float vs Double
+let floatNum:Float = 67.32322425252
+let doubleNum:Double = 67.32322425252
+print("float is \(floatNum) and double is \(doubleNum)")
+
+//Casting Data types
+//casting floatNum to Double
+let bankBalance = Double(floatNum) + doubleNum
+
+//Comparing Strings
+let alphabeticalOrder = "Kelby" < "Lorraine"
+print(alphabeticalOrder)
