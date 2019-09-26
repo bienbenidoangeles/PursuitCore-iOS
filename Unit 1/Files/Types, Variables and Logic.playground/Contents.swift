@@ -54,21 +54,29 @@ var b = 6
 var c = 3
 var d = 4
 
-if(a<b || a<b || a<c){
-    b=a
-    if(b<c){
-        c=b
-        if(c<d){
-            d=c
-            print(d)
-        } else {
-            print(c)
-        }
-    } else {
-        print(b)
-    }
+var min1 = 0
+var min2 = 0
+var min = 0
+
+if (a > b){
+    min1 = b
+}
+else {
+    min1 = a
+}
+
+if(c > d){
+    min2 = d
 } else {
-    print(a)
+    min2 = c
+}
+
+if(min1>min2){
+    min = min2
+    print(min)
+} else {
+    min = min1
+    print(min)
 }
 
 //Constants
@@ -106,3 +114,5 @@ let bankBalance = Double(floatNum) + doubleNum
 //Comparing Strings
 let alphabeticalOrder = "Kelby" < "Lorraine"
 print(alphabeticalOrder)
+
+
