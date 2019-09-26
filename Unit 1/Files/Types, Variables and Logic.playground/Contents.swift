@@ -70,3 +70,6 @@ if(a<b || a<b || a<c){
 } else {
     print(a)
 }
+
+//Constants
+let pi = 3.14
